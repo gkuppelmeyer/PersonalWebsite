@@ -1,0 +1,49 @@
+body {
+	font-family: "Century Gothic", Helvetica, Arial, serif;
+	color: #23e2f9;
+}
+
+.headerBar {
+	background: rgba(0,0,0,0.7);
+	width: auto;
+	height: 100px;
+	
+}
+
+.headerBarLeft {
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.headerBarRight {
+	float: right;
+	display: inline-block;
+}
+
+#headerTab {
+	display: inline-block;
+	margin-top: 32px;
+	margin-right: 15px;
+	float: right;
+	color: #23e2f9;
+}
+
+#headerTab:hover {
+	background-color: white;
+	transition: 1s;
+}
+
+#lastTab {
+	margin-right: 1px;
+}
+
+#headerLink {
+	text-decoration: none;
+}
+
+#headerLink:visited {
+	color: #23e2f9; /*color*/
+}
+
+
+
