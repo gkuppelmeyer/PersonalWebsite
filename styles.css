@@ -1,49 +1,34 @@
 body {
 	font-family: "Century Gothic", Helvetica, Arial, serif;
 	color: #23e2f9;
+	background-color: #333;
 }
 
-.headerBar {
-	background: rgba(0,0,0,0.7);
-	width: auto;
-	height: 100px;
-	
+#headerNav {
+	background-color: #111;
+    border-bottom: 5px solid white;
+}
+#headerNav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.headerBarLeft {
-	margin-left: 15px;
-	display: inline-block;
-}
-
-.headerBarRight {
+#headerNav ul li {
 	float: right;
-	display: inline-block;
 }
 
-#headerTab {
-	display: inline-block;
-	margin-top: 32px;
-	margin-right: 15px;
-	float: right;
-	color: #23e2f9;
+#headerNav ul li a {
+	display: block;
+    color: #23e2f9;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#headerTab:hover {
-	background-color: white;
-	transition: 1s;
+#headerNav ul li a:hover {
+	background-color: #666;
+	transition: .5s;
 }
-
-#lastTab {
-	margin-right: 1px;
-}
-
-#headerLink {
-	text-decoration: none;
-}
-
-#headerLink:visited {
-	color: #23e2f9; /*color*/
-}
-
-
-
