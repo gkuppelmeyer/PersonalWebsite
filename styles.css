@@ -2,33 +2,87 @@ body {
 	font-family: "Century Gothic", Helvetica, Arial, serif;
 	color: #23e2f9;
 	background-color: #333;
+	margin: 30px 100px;
 }
 
 #headerNav {
-	background-color: #111;
-    border-bottom: 5px solid white;
+	background-color: #222;
+    border-bottom: 5px solid #ccc;
+    padding: 10px;
+
 }
 #headerNav ul {
 	list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
 }
 
 #headerNav ul li {
 	float: right;
+	margin: 15px;
 }
 
 #headerNav ul li a {
 	display: block;
     color: #23e2f9;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: .5s;
 }
 
 #headerNav ul li a:hover {
 	background-color: #666;
 	transition: .5s;
+	font-size: 40px;
+}
+
+#headerName {
+	font-size: 50px;
+	margin: 0;
+	padding-left: 30px;
+	-webkit-transform: rotate(-4deg);
+	position: fixed;
+	top: 27px;
+	transition: 1s;
+}
+
+#headerName:hover {
+	-webkit-transform: rotate(0deg);
+	transition: .5s;
+	-webkit-transform: scale(1.2);
+	padding-left: 40px;
+
+}
+
+#headerName a {
+	text-align: center;
+	text-decoration: none;
+	color: #23e2f9;	
+}
+
+#resumeBox {
+	float: right;
+	width: 300px;
+	height: auto;
+	border: 5px solid #ccc;
+	background-color: #222;
+}
+
+#resumeBox p {
+	padding-left: 20px;
+	font-size: 30px;
+}
+
+.spacer1 {
+	margin: 10px;
+}
+
+#contentBox1{
+	font-size: 20px; 
+	padding: 5px;
+	float: left;
+	border: 5px solid #ccc;
 }
