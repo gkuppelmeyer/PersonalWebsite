@@ -1,0 +1,14 @@
+@media screen and (min-width: 1300px) {
+	body, header, .spacer1,  {
+		width: 100%;
+	}
+
+	#resumeBox {
+		width: 15%;
+	}
+
+	#contentBox1 {
+		width: 30%;
+	}
+
+}
