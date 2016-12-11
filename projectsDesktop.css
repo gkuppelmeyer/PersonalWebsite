@@ -1,0 +1,68 @@
+@media screen and (min-width: 1297px) {
+	body, header, .spacer1, nav ul {
+		width: 100%;
+	}
+	#resume {
+		clear: both;
+		width: 50%;
+		margin: auto auto 5% auto;
+	}
+	 .spacer1 {
+	 	clear: both;
+	 }
+	 #resumeTitle {
+	 	 font-size: 3.2em;
+	 }
+	 .resumeSubTitle {
+	 	 font-size: 1.6em;
+	 }
+	 .resumeJobTitle {
+	 	 font-size: 1.3em;
+	 }
+
+	 #picture{
+	 	width: 39%;
+	 	height: auto;
+	 	margin: auto 10% auto auto;
+	 	float: right;
+	 }
+
+	 #picture p {
+	 	margin-top: 20%;
+	 }
+
+	  #picture img {
+	 	float: left;
+	 }
+
+
+	 #contentDiv {
+	 	width: 39%;
+	 	height: auto;
+	 	float: left;
+	 	margin: auto auto auto 10%;
+	 }
+
+	#videos {
+		width: 100%;
+		height: auto;
+	}
+
+	#videoRow {
+		width: 50%;
+		height: 40%;
+		margin: auto;
+		border-bottom: 3px solid #ccc;
+	}
+	#videoleft {
+		float: left;
+		margin: auto;
+		text-align: center;
+	}
+
+	#videoright {
+		float: right;
+		margin: auto;
+		text-align: center;
+	}
+}
