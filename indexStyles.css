@@ -27,6 +27,10 @@ header {
 	border-bottom: 5px solid #ccc;
 }
 
+header, nav {
+	background-color: rgba(34,34,34,0.8);
+}
+
 #headerName {
 	text-align: center;
 	transition: .7s;
@@ -114,3 +118,13 @@ nav ul li a:hover {
  	height: auto;
  	transform: translate(-50%, -50%);
 }
+
+/*
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}*/
